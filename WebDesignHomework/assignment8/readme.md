@@ -10,8 +10,10 @@ Span 1 is used in the red dress intro with the $11,402 being maroon.
 Span2 is used in the red dress information with the words red dress gala being maroon.
 
 Audio (at least 1)
+(I couldn't figure out how to get this to work)
 
 Video (at least 1)
+(I couldn't figure out how to get this to work)
 
 Iframe (at least 1)
 I added the official website we currently have for Alpha Phi. 
