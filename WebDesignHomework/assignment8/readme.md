@@ -21,4 +21,4 @@ My first class is a part of the "Header" div.
 My second class is a part of the "Redress2" div.
 
 Escape character (at least 1)
-
+I added the escape character &#126; (~) to my heading in the index.html page.
