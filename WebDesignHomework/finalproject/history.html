@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Phi - Chi Chapter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #a8a8a8;
+        }
+        header {
+            font-family: 'Caprasimo', cursive;
+            background: #ff97ff;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: 
+                2px 2px 0px #ff6cda,
+                -2px -2px 0px #ff6cda, 
+                2px -2px 0px #ff6cda,
+                -2px 2px 0px #ff6cda;
+            font-size: 500%;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #fff;
+            margin-top: 0.5rem;
+            text-shadow: 
+                1px 1px 0px #ff6cda,
+                -1px -1px 0px #ff6cda;
+            font-family: 'Caprasimo', cursive;
+        }
+        main {
+            padding: 1rem;
+            text-align: center;
+        }
+        footer {
+            background: #ff97ff;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6cda;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid #ff56d5;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #ff53ff;
+            border-color: #ff56d5;
+        }
+        .content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+        .content-wrapper div {
+            background: #cbcbcb;
+            border: 1px solid #ff6cda;
+            padding: 1rem;
+            max-width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        img {
+            width: 100%; /* Adjust image width to fit the column */
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column; /* Stack content vertically */
+                align-items: center;
+            }
+            .content-wrapper div {
+                max-width: 90%; /* Adjust for smaller screens */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 2.5rem; /* Make the header smaller for mobile */
+            }
+            h2 {
+                font-size: 1.5rem; /* Smaller font size for headings */
+            }
+            .content-wrapper div {
+                max-width: 100%; /* Make content full-width on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>❦ Alpha Phi | Chi Chapter ❦</h1>
+        <h1>History</h1> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Chapter</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content-wrapper">
+            <div>
+                <img src="photos/alphaphi3 copy.png" alt="Alpha Phi at the University of Montana">
+                <h2>History of Alpha Phi at the University of Montana</h2>
+                <p>The Chi Chapter of Alpha Phi at the University of Montana was established in 1918, making it one of the oldest chapters in the Alpha Phi network. The chapter has consistently upheld the values of sisterhood, leadership, and academic excellence while fostering a strong community of women who support one another and strive to make a positive impact on campus and beyond.</p>
+            </div>
+
+            <div>
+                <img src="photos/alphaphi4 copy.png" alt="Alpha Phi Core Values">
+                <h2>Alpha Phi’s Core Values: Sisterhood, Leadership, and Service</h2>
+                <p>The Chi Chapter is committed to promoting values such as leadership, intellectual growth, and a sense of belonging through sisterhood. Members of Alpha Phi are encouraged to develop leadership skills, engage in meaningful service opportunities, and form lifelong friendships that extend well beyond their time at the University of Montana.</p>
+            </div>
+
+            <div>
+                <img src="photos/alphaphi5 copy.png" alt="Philanthropy and Heart Health">
+                <h2>Philanthropy and Heart Health</h2>
+                <p>As part of the larger Alpha Phi network, the Chi Chapter participates in the sorority’s national philanthropic focus on women’s heart health. The chapter raises awareness and funds to support research and education about heart disease, empowering women to take charge of their health and well-being.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Alpha Phi - Chi Chapter</p>
+        <p><b>Address</b>: 1107 Gerald Ave, Missoula, MT 59801</p>
+    </footer>
+</body>
+</html>
