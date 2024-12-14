@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Phi - Chi Chapter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #a8a8a8;
+        }
+        header {
+            background: #ff97ff;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 1rem;
+            text-align: center;
+        }
+        footer {
+            background: #ff97ff;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6cda;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid #ff56d5;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #ff53ff;
+            border-color: #ff56d5; 
+        }
+        div {
+            background: #cbcbcb;
+            border: 1px solid #ff6cda;
+            padding: 1rem;
+            margin: 1rem auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 65%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+.contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.contact-info li {
+    margin: 0.5rem 0;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border: 1px solid #ff6cda;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ff6cda;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #ff6cda;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #ff97ff;
+}
+
+.map-container {
+            width: 100%;
+            height: 400px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alpha Phi | Chi Chapter</h1>
+        <h2>Contact</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Chapter</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h3>Contact Information</h3>
+            <ul>
+                <li><strong>Email:</strong> info@alphaphi.com</li>
+                <li><strong>Phone:</strong> +1 406 555 1234</li>
+                <li><strong>Address:</strong> 1107 Gerald Ave, Missoula, MT 59801</li>
+            </ul>
+        </section>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/place/1107+Gerald+Ave,+Missoula,+MT+59801/@46.8607298,-113.9988345,17z/data=!3m1!4b1!4m5!3m4!1s0x535dcdcc2eb237b7:0x5af1bf0d8f6132f1!8m2!3d46.8607298!4d-113.9962596?entry=ttu&g_ep=EgoyMDI0MTIwOS4wIKXMDSoASAFQAw%3D%3D" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+
+        <section class="contact-form">
+            <h3>Send a Message</h3>
+            <form action="/submit-form" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Alpha Phi - Chi Chapter</p>
+        <p><b>Address</b>: 1107 Gerald Ave, Missoula, MT 59801</p>    
+    </footer>
+</body>
+</html>
